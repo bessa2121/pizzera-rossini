@@ -1,0 +1,91 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(168deg , #c93103,#ce6300);
+    
+}
+ul{
+    font-size:large;
+    list-style-type:none;
+    margin: -8px;
+    padding: 0;
+    margin-left: 580px;
+}
+li{
+    margin-bottom: -5px;
+    float: left;
+}
+li a{
+    border-bottom: 5px #402E1E solid ;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:rgb(231, 195, 151) ;
+    color: black;
+    transition: all ease 1s;
+}
+.anuncio1{
+    border: 5px #402E1E solid ;
+    margin-right: 600px;
+    margin-top: 50px;
+    width: 450px;
+    height: 782px;
+    animation: spin 3.7s linear infinite ;
+}
+.anuncio2{ 
+    border: 5px #402E1E solid;
+    margin-left: -484px;
+    width: 674px;
+    height: 750px;
+}
+.anuncio3{
+    display: block;
+    border-top: 5px #402E1E solid ;
+    border: 5px #402E1E solid ;
+    margin-left: 1400px;
+    margin-top: -794px;
+    width: 450px;
+    height: 782px;
+    animation: spin 3.7s linear infinite ;
+    animation-delay: 1.5s;
+}
+
+@keyframes spin{
+    0% {
+        transform: translateY(-5px) ;
+             }
+    10% {
+        transform: translateY(-10px) ;
+            }
+    20% {
+        transform: translateY(-15px) ;
+            }
+    30% {
+        transform: translateY(-20px) ;
+            }
+    40% {
+        transform: translateY(-25px) ;
+            }
+    50%{
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-15px) ;
+        
+    }
+    70% {
+        transform: translateY(-10px) ;
+    }
+    80% {
+        transform: translateY(-5px) ;
+    }
+    90% {
+        transform: translateY(0px) ;
+            }
+    100% {
+        transform: translateY(-5px);
+            }
+}
