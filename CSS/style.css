@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.dropdown {
+    min-width: 150px;
+    max-width: 300px;
+    width: 15%;
+    text-align: center;
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    padding: 10px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.dropdown h2 {
+    font-size: 1.5em
+}
+
+.container {
+    display: none;
+    background-color: hsl(0, 0%, 15%);
+    margin: 0px;
+    padding: 2px 0px;
+    border: 1px solid black;
+    border-radius: 10px
+}
+
+.container ul{
+    list-style-type: none;
+    padding: 5px 10px;
+}
+
+.container li {
+    margin: 5px 0px;
+    font-size: 1.2em;
+    padding: 6px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.dropdown:hover {
+    background-color: hsl(0, 0%, 25%);
+    border: 1px solid grey;
+}
+
+.dropdown:hover .container {
+    display: inline-block;
+    position: absolute;
+}
+
+.container li:hover {
+    background-color: hsl(0, 0%, 50%);
+    border-radius: 15px;
+}
+
+main {
+    background-color: gainsboro;
+    padding: 10px;
+    overflow: hidden;
+}
+
+aside {
+    float: left;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border-right: 2px white solid;
+}
+
+section {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
+}
+
+article {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    border-left: 2px white solid;
+}
+
+footer {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
